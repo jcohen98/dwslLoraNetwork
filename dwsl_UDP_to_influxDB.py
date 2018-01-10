@@ -36,7 +36,7 @@ def listen_UDP(IP, PORT):
     return parse_data(data)
 
 def parse_data(data_in):
-    #TODO write code that parses the given format into a NetID, Node ID, Data Type, and Data Value
+    #TODO change for specific parsing needs when recieving real messages from the USRP
     data_out = data_in.split("/")
     return data_out
 
